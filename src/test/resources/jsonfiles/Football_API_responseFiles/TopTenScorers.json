@@ -4,19 +4,19 @@
         "limit": 10
     },
     "competition": {
-        "id": 2019,
+        "id": 2021,
         "area": {
-            "id": 2114,
-            "name": "Italy"
+            "id": 2072,
+            "name": "England"
         },
-        "name": "Serie A",
-        "code": "SA",
+        "name": "Premier League",
+        "code": "PL",
         "plan": "TIER_ONE",
-        "lastUpdated": "2021-04-17T07:19:44Z"
+        "lastUpdated": "2021-04-17T02:20:14Z"
     },
     "season": {
-        "id": 757,
-        "startDate": "2021-08-22",
+        "id": 733,
+        "startDate": "2021-08-13",
         "endDate": "2022-05-22",
         "currentMatchday": 10,
         "winner": null
@@ -24,191 +24,191 @@
     "scorers": [
         {
             "player": {
-                "id": 2076,
-                "name": "Ciro Immobile",
-                "firstName": "Ciro",
-                "lastName": "Immobile",
-                "dateOfBirth": "1990-02-20",
-                "countryOfBirth": "Italy",
-                "nationality": "Italy",
+                "id": 3754,
+                "name": "Mohamed Salah",
+                "firstName": "Mohamed Salah",
+                "lastName": null,
+                "dateOfBirth": "1992-06-15",
+                "countryOfBirth": "Egypt",
+                "nationality": "Egypt",
                 "position": "Attacker",
                 "shirtNumber": null,
-                "lastUpdated": "2021-10-13T08:03:51Z"
+                "lastUpdated": "2020-09-07T21:02:43Z"
             },
             "team": {
-                "id": 110,
-                "name": "SS Lazio"
+                "id": 64,
+                "name": "Liverpool FC"
             },
-            "numberOfGoals": 8
+            "numberOfGoals": 10
         },
         {
             "player": {
-                "id": 1822,
-                "name": "Edin Džeko",
-                "firstName": "Edin",
-                "lastName": "Džeko",
-                "dateOfBirth": "1986-03-17",
-                "countryOfBirth": "Bosnia and Herzegovina",
-                "nationality": "Bosnia and Herzegovina",
+                "id": 3330,
+                "name": "Jamie Vardy",
+                "firstName": "Jamie",
+                "lastName": null,
+                "dateOfBirth": "1987-01-11",
+                "countryOfBirth": "England",
+                "nationality": "England",
                 "position": "Attacker",
                 "shirtNumber": null,
-                "lastUpdated": "2021-10-13T08:04:01Z"
+                "lastUpdated": "2020-11-26T02:14:30Z"
             },
             "team": {
-                "id": 108,
-                "name": "FC Internazionale Milano"
+                "id": 338,
+                "name": "Leicester City FC"
             },
             "numberOfGoals": 7
         },
         {
             "player": {
-                "id": 1907,
-                "name": "João Pedro Galvão",
-                "firstName": "João Pedro Geraldino",
+                "id": 8212,
+                "name": "Michail Antonio",
+                "firstName": "Michail Gregory",
                 "lastName": null,
-                "dateOfBirth": "1992-03-09",
-                "countryOfBirth": "Brazil",
-                "nationality": "Brazil",
+                "dateOfBirth": "1990-03-28",
+                "countryOfBirth": "England",
+                "nationality": "England",
                 "position": "Midfielder",
                 "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:20Z"
+                "lastUpdated": "2020-09-07T21:03:07Z"
             },
             "team": {
-                "id": 104,
-                "name": "Cagliari Calcio"
+                "id": 563,
+                "name": "West Ham United FC"
             },
             "numberOfGoals": 6
         },
         {
             "player": {
-                "id": 1888,
-                "name": "Mattia Destro",
-                "firstName": "Mattia",
+                "id": 3626,
+                "name": "Sadio Mané",
+                "firstName": "Sadio",
                 "lastName": null,
-                "dateOfBirth": "1991-03-20",
-                "countryOfBirth": "Italy",
-                "nationality": "Italy",
+                "dateOfBirth": "1992-04-10",
+                "countryOfBirth": "Senegal",
+                "nationality": "Senegal",
                 "position": "Attacker",
                 "shirtNumber": null,
-                "lastUpdated": "2021-02-28T11:23:44Z"
+                "lastUpdated": "2020-09-07T21:02:43Z"
             },
             "team": {
-                "id": 107,
-                "name": "Genoa CFC"
-            },
-            "numberOfGoals": 6
-        },
-        {
-            "player": {
-                "id": 1789,
-                "name": "Giovanni Simeone",
-                "firstName": "Giovanni Pablo",
-                "lastName": null,
-                "dateOfBirth": "1995-07-05",
-                "countryOfBirth": "Spain",
-                "nationality": "Argentina",
-                "position": "Attacker",
-                "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:20Z"
-            },
-            "team": {
-                "id": 450,
-                "name": "Hellas Verona FC"
-            },
-            "numberOfGoals": 6
-        },
-        {
-            "player": {
-                "id": 3220,
-                "name": "Lautaro Martínez",
-                "firstName": "Lautaro Javier",
-                "lastName": null,
-                "dateOfBirth": "1997-08-22",
-                "countryOfBirth": "Argentina",
-                "nationality": "Argentina",
-                "position": "Attacker",
-                "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:27Z"
-            },
-            "team": {
-                "id": 108,
-                "name": "FC Internazionale Milano"
+                "id": 64,
+                "name": "Liverpool FC"
             },
             "numberOfGoals": 5
         },
         {
             "player": {
-                "id": 82002,
-                "name": "Dušan Vlahović",
-                "firstName": "Dušan",
+                "id": 3257,
+                "name": "Bruno Fernandes",
+                "firstName": "Bruno Miguel",
                 "lastName": null,
-                "dateOfBirth": "2000-01-28",
-                "countryOfBirth": "Serbia",
-                "nationality": "Serbia",
-                "position": "Attacker",
-                "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:05Z"
-            },
-            "team": {
-                "id": 99,
-                "name": "ACF Fiorentina"
-            },
-            "numberOfGoals": 5
-        },
-        {
-            "player": {
-                "id": 9434,
-                "name": "Victor Osimhen",
-                "firstName": "Victor James",
-                "lastName": null,
-                "dateOfBirth": "1998-12-29",
-                "countryOfBirth": "Nigeria",
-                "nationality": "Nigeria",
-                "position": "Attacker",
-                "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:37Z"
-            },
-            "team": {
-                "id": 113,
-                "name": "SSC Napoli"
-            },
-            "numberOfGoals": 5
-        },
-        {
-            "player": {
-                "id": 1783,
-                "name": "Jordan Veretout",
-                "firstName": "Jordan",
-                "lastName": null,
-                "dateOfBirth": "1993-03-01",
-                "countryOfBirth": "France",
-                "nationality": "France",
+                "dateOfBirth": "1994-09-08",
+                "countryOfBirth": "Portugal",
+                "nationality": "Portugal",
                 "position": "Midfielder",
                 "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:08Z"
+                "lastUpdated": "2021-02-25T13:37:26Z"
             },
             "team": {
-                "id": 100,
-                "name": "AS Roma"
+                "id": 66,
+                "name": "Manchester United FC"
             },
             "numberOfGoals": 4
         },
         {
             "player": {
-                "id": 7887,
-                "name": "Brahim Diaz",
-                "firstName": "Brahim",
+                "id": 101075,
+                "name": "Mason Greenwood",
+                "firstName": "Mason",
                 "lastName": null,
-                "dateOfBirth": "1999-08-03",
-                "countryOfBirth": "Spain",
-                "nationality": "Spain",
-                "position": "Midfielder",
+                "dateOfBirth": "2001-10-01",
+                "countryOfBirth": "England",
+                "nationality": "England",
+                "position": "Attacker",
                 "shirtNumber": null,
-                "lastUpdated": "2020-09-07T21:10:03Z"
+                "lastUpdated": "2020-09-07T21:02:46Z"
             },
             "team": {
-                "id": 98,
-                "name": "AC Milan"
+                "id": 66,
+                "name": "Manchester United FC"
+            },
+            "numberOfGoals": 4
+        },
+        {
+            "player": {
+                "id": 3638,
+                "name": "Ismaïla Sarr",
+                "firstName": "Ismaïla",
+                "lastName": null,
+                "dateOfBirth": "1998-02-25",
+                "countryOfBirth": "Senegal",
+                "nationality": "Senegal",
+                "position": "Attacker",
+                "shirtNumber": null,
+                "lastUpdated": "2021-03-05T13:45:40Z"
+            },
+            "team": {
+                "id": 346,
+                "name": "Watford FC"
+            },
+            "numberOfGoals": 4
+        },
+        {
+            "player": {
+                "id": 4443,
+                "name": "Neal Maupay",
+                "firstName": "Neal",
+                "lastName": null,
+                "dateOfBirth": "1996-08-14",
+                "countryOfBirth": "France",
+                "nationality": "France",
+                "position": "Attacker",
+                "shirtNumber": null,
+                "lastUpdated": "2020-09-07T21:03:05Z"
+            },
+            "team": {
+                "id": 397,
+                "name": "Brighton & Hove Albion FC"
+            },
+            "numberOfGoals": 4
+        },
+        {
+            "player": {
+                "id": 4092,
+                "name": "Diogo Jota",
+                "firstName": "Diogo José",
+                "lastName": null,
+                "dateOfBirth": "1996-12-04",
+                "countryOfBirth": "Portugal",
+                "nationality": "Portugal",
+                "position": "Attacker",
+                "shirtNumber": null,
+                "lastUpdated": "2020-09-07T21:02:52Z"
+            },
+            "team": {
+                "id": 64,
+                "name": "Liverpool FC"
+            },
+            "numberOfGoals": 4
+        },
+        {
+            "player": {
+                "id": 3233,
+                "name": "Roberto Firmino",
+                "firstName": "Roberto Firmino",
+                "lastName": null,
+                "dateOfBirth": "1991-10-02",
+                "countryOfBirth": "Brazil",
+                "nationality": "Brazil",
+                "position": "Attacker",
+                "shirtNumber": null,
+                "lastUpdated": "2020-09-07T21:02:43Z"
+            },
+            "team": {
+                "id": 64,
+                "name": "Liverpool FC"
             },
             "numberOfGoals": 4
         }

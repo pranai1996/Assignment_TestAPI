@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.Properties;
 import java.util.TreeMap;
@@ -86,16 +87,23 @@ public class APIAssignmentdata extends BaseSetup{
 	}
 
 	public void listTopTenTeams(Response response) {
-		Map<String, Integer> teamMap = new TreeMap<String, Integer>();
-
+	//	Map<Map<String,Integer>, Integer> teamMap = new LinkedHashMap<>();
+        Map<String, Integer> teamPositionMap = new TreeMap<String,Integer>();
 		List<String> teamList= response.jsonPath().getList("standings[0].table.team.name");
 		List<Integer> pointsList = response.jsonPath().getList("standings[0].table.points");
+		List<Integer> positionList = response.jsonPath().getList("standings[0].table.position");
 		for(int i=0;i<teamList.size()-1;i++)
 		{
-			teamMap.put(teamList.get(i), pointsList.get(i));
+			teamPositionMap.put(teamList.get(i)+"_"+pointsList.get(i), positionList.get(i));
 		}
-
-		Map<String, Integer> result = teamMap.entrySet()
+		System.out.println(positionList);
+		
+/*		for(int i=0;i<teamList.size()-1;i++)
+		{
+			teamMap.put(teamPositionMap, pointsList.get(i));
+		}*/
+		
+		Map<String, Integer> sortPoints = teamPositionMap.entrySet()
 				.stream()
 				.sorted(Map.Entry.comparingByValue())
 				.collect(Collectors.toMap(
@@ -103,9 +111,10 @@ public class APIAssignmentdata extends BaseSetup{
 						Map.Entry::getValue, 
 						(oldValue, newValue) -> oldValue, LinkedHashMap::new));
 		int rank=1;
-		for (Map.Entry<String, Integer> entry : result.entrySet()) {
-			if(rank<11)
-				System.out.println("| Rank = "+rank+" | Team Name = "+ entry.getKey()+"| Points =  "+entry.getValue()+" |");
+		for (Map.Entry<String, Integer> entry : sortPoints.entrySet()) {
+			String Key[] = entry.getKey().split("_");
+		if(rank<11){
+			System.out.println("| Rank =  "+entry.getValue()+" | Team Name = "+ Key[0].trim()+" | Points = "+Key[1].trim());}
 			rank++;
 		}
 	}
