@@ -15,6 +15,6 @@ Feature: Features if API assignment for football teams
     And I create a list of Top ten teams based on points
     
   @APIAssignmentScenario3
-  Scenario: 2. Get overall team standings
+  Scenario: 3. Get overall team standings
     Given I perform an API request to fetch the overall team standings at the end of the season
     And I create a list of team standings

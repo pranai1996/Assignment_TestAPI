@@ -53,6 +53,8 @@ public class APIAssignmentdata extends BaseSetup{
 
 		List<String> playerList= response.jsonPath().getList("scorers.player.name");
 		List<Integer> noOfGoals = response.jsonPath().getList("scorers.numberOfGoals");
+		String seasonName = response.jsonPath().getString("competition.name");
+		System.out.println("\nSEASON NAME: "+seasonName+"\n");
 		for(int i=0;i<playerList.size()-1;i++)
 		{
 			playermap.put(playerList.get(i), noOfGoals.get(i));
@@ -92,6 +94,8 @@ public class APIAssignmentdata extends BaseSetup{
 		List<String> teamList= response.jsonPath().getList("standings[0].table.team.name");
 		List<Integer> pointsList = response.jsonPath().getList("standings[0].table.points");
 		List<Integer> positionList = response.jsonPath().getList("standings[0].table.position");
+		String seasonName = response.jsonPath().getString("competition.name");
+		System.out.println("\nSEASON NAME: "+seasonName+"\n");
 		for(int i=0;i<teamList.size()-1;i++)
 		{
 			teamPositionMap.put(teamList.get(i)+"_"+pointsList.get(i), positionList.get(i));
@@ -135,6 +139,8 @@ public class APIAssignmentdata extends BaseSetup{
 		//printing team details with name & ID as we couldn't find an API to get the team standings at the end of the season
 		List<String> teamDetailsList= response.jsonPath().getList("teams.name");
 		List<Integer> teamIDList = response.jsonPath().getList("teams.id");
+		String seasonName = response.jsonPath().getString("competition.name");
+		System.out.println("\nSEASON NAME: "+seasonName+"\n");
 		for(int i=0;i<teamDetailsList.size()-1;i++)
 		{
 			teamDetailsMap.put(teamDetailsList.get(i), teamIDList.get(i));
